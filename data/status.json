@@ -1,1 +1,32 @@
-{"companies":{},"config_errors":[]}
+{
+ "companies": {
+  "ashby-ramp": {
+   "error": null,
+   "failing_since": null,
+   "name": "Ramp",
+   "ok": true,
+   "open": 169,
+   "source": "ashby",
+   "url": "https://jobs.ashbyhq.com/ramp"
+  },
+  "html-01eba1c5f5": {
+   "error": null,
+   "failing_since": null,
+   "name": "Squarepharma",
+   "ok": true,
+   "open": 6,
+   "source": "html",
+   "url": "https://squarepharma.com.bd/career_4.php"
+  },
+  "html-affe2d5820": {
+   "error": "No job links found. This page may need JavaScript, so try the company's ATS link instead.",
+   "failing_since": "2026-11-09T06:43:33Z",
+   "name": "Fa Esth Saasfaprod1",
+   "ok": false,
+   "open": 0,
+   "source": "html",
+   "url": "https://fa-esth-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1"
+  }
+ },
+ "config_errors": []
+}
