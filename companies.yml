@@ -1,0 +1,31 @@
+# ──────────────────────────────────────────────────────────────
+#  Your watchlist. Edit this file right on github.com (pencil icon),
+#  commit, and a check starts automatically within a minute.
+#
+#  url:  the company's careers page (Greenhouse, Lever, Ashby, Workable,
+#        SmartRecruiters, an RSS feed, or a simple careers page).
+#        Shorthand also works:  lever:companyname
+#  Optional per company:
+#    name:            display name
+#    include:         only roles whose title/department contain any of these words
+#    exclude:         skip roles containing any of these words
+#    locations:       only roles whose location contains any of these words
+#    notify_updates:  also alert when a posting is edited (default true)
+#    announce_existing: true = put the jobs that are open right now into your
+#                       inbox on first add (default false: they are saved quietly)
+# ──────────────────────────────────────────────────────────────
+
+settings:
+  keep_notifications: 1500     # how many inbox entries to keep
+  repost_window_days: 30       # a re-listed job within this window is not announced again
+
+companies:
+  # Replace these examples with the companies you care about.
+  - url: https://boards.greenhouse.io/airbnb
+    include: [engineer, data]
+    exclude: [intern]
+
+  - url: https://jobs.lever.co/palantir
+    locations: [remote, london]
+
+  - url: https://jobs.ashbyhq.com/ramp
