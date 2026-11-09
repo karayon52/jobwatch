@@ -22,10 +22,10 @@ settings:
 companies:
   # Replace these examples with the companies you care about.
   - url: https://fa-esth-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1
-    include: [engineer, engineering, radio, network]
-    exclude: [intern]
+    name: Company name here
+    include: [engineer, radio, network]
+    exclude: [internship]
 
   - url: https://squarepharma.com.bd/career_4.php
-    locations: [engineer, engineering]
-
-  - url: https://jobs.ashbyhq.com/ramp
+    name: Square Pharma
+    include: [engineer]
