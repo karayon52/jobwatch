@@ -1,10 +1,10 @@
 {
  "companies": {
   "html-01eba1c5f5": {
-   "error": null,
-   "failing_since": null,
+   "error": "Could not reach the site (ConnectTimeout).",
+   "failing_since": "2026-11-12T03:21:56Z",
    "name": "Square Pharma",
-   "ok": true,
+   "ok": false,
    "open": 7,
    "source": "html",
    "url": "https://squarepharma.com.bd/career_4.php"
